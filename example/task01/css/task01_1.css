@@ -1,0 +1,289 @@
+* {
+		/*优先设置box-sizing: border-box; 减少需要计算的盒模型*/
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main-wrap {
+	/*max-width: 1000px;*/
+	/*margin: 0 auto;*/
+}
+
+body {
+	background: #eeeeee;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	/*background: #522a5c;*/
+}
+
+.nav {
+	display: block;
+	/*max-width: 980px;*/
+	/*margin: 0 auto;*/
+	padding: 0 auto;
+	height: 80px;
+	background: #522a5c;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+}
+
+.nav-wrap {
+	display: block;
+	width: 980px;
+	margin: 0 auto;
+	height: 80px;
+}
+
+.nav>* {
+	display: inline-block;
+}
+
+.nav .logo {
+	text-align: end;
+	position: absolute;
+	padding: 40px 0 5px 5px;
+	/*margin-left: 20%;*/
+	/*width: 150px;*/
+	height: 80px;
+	font-size: 24px;
+	/*bottom: 0px;*/
+	letter-spacing: .2em;
+}
+
+.nav .nav_item-list {
+	/*margin-top: 20px;*/
+	height: 100%;
+	/*margin-right: 50px;*/
+	float: right;
+	
+}
+
+.nav .nav_item-list .nav-item {
+	display: inline-block;
+	/*position: absolute;*/
+	height: 100%;
+	padding-right: 28px;
+	
+	padding-top: 54px;
+	/*去掉<li>的点;*/
+	list-style: none;
+	font-family: "宋体";
+}
+
+.nav .nav_item-list .nav-item a {
+	/*text-decoration: none;*/
+	text-align: end;
+	color: #FFFFFF;
+}
+.nav .github-logo  {
+	/*clear: right;*/
+	position: relative;
+	display: block;
+	float: right;
+	bottom: -46px;
+	right: 10px;
+}
+
+.header  {
+	position: relative;
+	width: 100%;	
+	height: 500px;
+	z-index: -1;
+}
+
+
+.header  img {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.header .info {
+	background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.5) 75%,rgba(255,255,255,0) 100%);
+	position: absolute;
+	/*top: 450px;*/
+	bottom: 0;
+	right: 10%;
+	/*left: 80%;*/
+	display: block;
+	max-width: 300px;
+	height: 120px;
+	color: #FFFFFF;
+	line-height: 150%;
+	font-size: 12px;
+	margin: 0;
+	padding: 10px 10px 30px 10px;
+}
+
+.header .info .title {
+	display: block;
+	font-size: 14px;
+	text-align: right;
+	
+}
+
+.header .info p {
+	display: block;
+	margin: 0;
+	padding: 12px 0 0 0;
+}
+
+.info-wrap {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.intro {
+	overflow: hidden;
+	/*clear: right;*/
+	margin: 10px auto;
+	width: 1000px;
+	display: block;
+	
+}
+
+/*.intro:first-child {
+	margin-top: -120px;
+}*/
+
+.intro-item {
+	background: #FFFFFF;
+	display: inline-block;
+	min-height: 100%;
+	width: 320px;
+	vertical-align: top;
+	
+	/*简直难以想到的简单粗暴的让元素白色对齐 的 方式*/
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+	/*margin: 0 10px;*/
+	/*height: 100px;*/
+	
+	font-size: 12px;
+}
+
+.intro-item p {
+	padding: 0 30px;
+	margin-bottom: 25px;
+	line-height: 170%;	
+}
+
+.intro img {
+	width: 300px;
+	height: 180px;
+	margin: 10px 10px 15px 10px;
+}
+
+.self-intro {
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 100px;
+	text-align: center;
+	height: 500px;
+}
+
+.self-intro img {
+	/*display: block;*/
+	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	margin-top: -50px;
+	
+}
+
+.self-intro h1 {
+	margin: 50px auto;
+	font-size: 20px;
+	font-family: "century gothic";
+	color: black;
+	font-weight: 400;
+}
+
+.self-intro p {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.footer {
+	width: 100%;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.footer .nav-bottom {
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #FFFFFF;
+	padding-bottom: 5px;
+}
+
+.footer .nav-bottom ul {
+	margin: 0 auto;
+	width: 220px;
+}
+
+.footer .nav-bottom li {
+	list-style: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: auto 10px;
+}
+
+.footer .nav-bottom li a {
+	
+	color: #FFFFFF;
+}
+
+.footer .link-list {
+	width: 980px;
+	margin: 0 auto;
+	
+}
+
+.footer .link-list .link-item {
+	display: inline-block;
+	width: 19%;
+}
+
+.footer .link-list .title {
+	font-size: 16px;
+	text-align: center;
+	padding: 20px;
+}
+
+.footer .link-list ul {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer .link-list li:hover {
+	text-decoration: underline;
+	
+}
+
+.belong {
+	display: block;
+	text-align: center;
+	margin: 100px auto;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+
+

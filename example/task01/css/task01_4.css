@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+a,
+li,
+ul {
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #e2e2e2;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav-wrap {
+	height: 80px;
+	background: #47456D;
+}
+
+.nav-wrap .nav {
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.nav-wrap .nav .logo {
+	display: inline-block;
+	margin-left: 15px;
+	height: 80px;
+	
+}
+
+.nav-wrap .nav .logo h1 {
+	position: absolute;
+	color: #FFFFFF;
+	bottom: 0;
+}
+
+.nav-wrap .nav .nav_item-list {
+	display: inline-block;
+	right: 20px;
+	width: 200px;
+	position: absolute;
+	bottom: 5px;
+	
+	/*margin-right: 15px;*/
+}
+
+.nav-wrap .nav .nav_item-list li {
+	display: inline-block;
+	width: 40px;
+	font-size: 20px;
+	text-align: center;
+	height: 20px;
+	line-height: 18px;
+}
+
+.nav-wrap .nav .nav_item-list li a {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.nav-wrap .github-logo {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	bottom: -4px;
+}
+
+.main {
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 100px;
+	
+}
+
+.right-wrap,
+.left-wrap {
+	width: 487px;
+	background: #FFFFFF;
+	height: 1000px;
+	/*height: 100%;*/
+}
+
+.right-wrap {
+	float: right;
+}
+
+.left-wrap {
+	float: left;
+}
+
+.right-wrap .info {
+	margin: 0 130px 150px 50px;
+}
+
+.right-wrap .info-name {
+	margin-top: 130px;
+}
+
+.right-wrap .info img {
+	position: absolute;
+	border: 6px solid #E2E2E2;
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	left: -110px;
+	top: -120px;
+}
+
+.right-wrap .info h1 {
+	left: -200px;
+	position: absolute;
+	font-size: 20px;
+}
+
+.right-wrap .info p {
+	font-size: 16px;
+	font-family: "宋体";
+	line-height: 20px;
+	letter-spacing: .05em;
+	font-weight: 500;
+	
+}
+
+.right-wrap .info-name img {
+	width: 150px;
+	height: 170px;
+	left: -125px;
+	top: -200px;
+} 
+
+.info div {
+	margin: 40px 0;
+}
+
+.time-point {
+	display: inline-block;
+	position: absolute;
+	width: 70px;
+	line-height: 40px;
+	text-align: center;
+	left: -88px;
+	border: 6px solid #E2E2E2;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
